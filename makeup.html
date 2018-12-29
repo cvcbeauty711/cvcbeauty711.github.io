@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CVC | Beauty</title>
+<meta charset="utf-8">
+<link rel="icon" href="img/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+<link rel="stylesheet" href="css/bootstrap.css" type="text/css" media="screen">
+<link rel="stylesheet" href="css/responsive.css" type="text/css" media="screen">
+<link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="js/jquery.js"></script>
+<script src="js/superfish.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/jquery.cookie.js"></script>
+<script>
+if ($(window).width() > 1024) {
+    document.write("<" + "script src='js/jquery.preloader.js'></" + "script>");
+}
+</script>
+<script>
+jQuery(window).load(function () {
+    $x = $(window).width();
+    if ($x > 1024) {
+        jQuery("#content .row").preloader();
+    }
+    jQuery('.spinner').animate({
+        'opacity': 0
+    }, 1000, 'easeOutCubic', function () {
+        jQuery(this).css('display', 'none')
+    });
+});
+</script>
+</head>
+<body>
+<div class="spinner"></div>
+<header>
+  <div class="container clearfix">
+    <div class="row">
+      <div class="span12">
+        <div class="navbar navbar_">
+          <div class="container">
+            <h1 class="brand brand_"><a href="index.html"><img alt="" src="img/logo.png" height="380" width="460"> </a></h1>
+            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse_">Menu<span class="icon-bar"></span> </a>
+            <div class="nav-collapse nav-collapse_  collapse">
+              <ul class="nav sf-menu">
+                <li><a href="index.html">Home</a></li>
+                <li class="sub-menu active"><a href="services.html">Services</a>
+                  <ul>
+                    <li><a href="makeup.html">Make-Up</a></li>
+                    <li><a href="teaching.html">Teaching</a></li>
+                  </ul>
+                </li>
+                <li><a href="folio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="bg-content">
+  <div id="content">
+    <div class="container">
+      <div class="row">
+        <article class="span8">
+          <h3>Make-Up</h3>
+            <ul>
+              <u><b>Bridal Makeup Services*</b></u>
+              <li>Bridal Hair and Makeup Package - $140</li>
+              <li>Bridal Shower/Engagement Hair and Makeup Package - $120</li>
+              <li>Bridesmaid/Mother of the Bride Hair and Makeup Package - $100</li>
+              <br>
+              <u><b>Makeup Application</b></u>
+              <li>Prom Makeup & Hair Set - $80</li>
+              <li>Beauty/Glamour Set - $60</li>
+              <li>Party Makeup - $40</li>
+              <li>Party Hair - $40</li>
+              <br>
+              <li>Note - Eyelashes are an additional $10 outside of package deals</li>
+            </ul>
+          <p>* All bridal makeup services come with false lash application, and a lipstick and powder touch-up kit to keep you looking your best all day and night!</p>
+          <p><b>A non-refundable $20 deposit is required to secure all appointments. Deposits are collected via e-transfer.</b></p>
+        </article>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <div class="container clearfix">
+    <ul class="list-social pull-right">
+      <li><a class="fa fa-facebook-official" href="https://www.facebook.com/christina.correa.9" style="font-size:36px;color:#D21C20" ></a></li>
+      <li><a class="fa fa-instagram" href="https://www.instagram.com/lizardqueenbeauty/" style="font-size:36px;color:#D21C20" ></a></li>
+      <li><a class="fa fa-linkedin-square" href="https://ca.linkedin.com/in/pilliplee" style="font-size:36px;color:#D21C20" ></a></li>
+      <li><a class="fa fa-youtube" href="https://www.youtube.com/channel/UCpJ8HXnXZpOdqgx5_9l3ImA" style="font-size:36px;color:#D21C20" ></a></li>
+    </ul>
+    <div class="privacy pull-left">© 2019 Christina V. Correa. All rights reserved.</div>
+  </div>
+</footer>
+<script src="js/bootstrap.js"></script>
+</body>
+</html>
